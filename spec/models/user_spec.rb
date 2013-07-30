@@ -56,6 +56,15 @@ require 'spec_helper'
 			it{should_not be_valid}
 		end
 
+		describe "email adress with mixed case" do
+			let(:mixed_case_email) {"Foo@EXaMPle.CoM"}
+			it "should be save as all lower-case" do
+				@user.email = mixed_case_email
+				@user.save
+				expect(@user.reload.email).to eq mixed_case_email.downcase
+			end
+
+		end
 
 		describe "when password is not present" do
 			before do
