@@ -2,11 +2,15 @@ SampleApp::Application.routes.draw do
 
   #get "users/new"
   resources :users
+  resources :sessions, only: [:new, :destroy, :create]
   root  to: 'static_pages#home'
   match '/help', to: 'static_pages#help', via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/about', to: 'static_pages#about', via: 'get'
   match '/signup', to: 'users#new', via:'get'
+  match '/signin', to: 'sessions#new', via: 'get'
+  match '/signout', to:'sessions#destroy', via: 'delete'
+
   #match '/', to: 'static_pages#home', via:'get'
 
   # You can have the root of your site routed with "root"
