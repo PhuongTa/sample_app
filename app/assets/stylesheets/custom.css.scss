@@ -125,6 +125,55 @@ input {height:auto !important;}
 	}
 }
 
+/* microposts */
+.microposts{
+	margin:10px 0 0 0;
+	li{
+		padding:10px 0;
+		border-top: 1px solid $grayLighter;
+	}
+}
+
+.content{display:block;}
+.timestamp{color:$grayDarker;}
+.gravatar{float:left; margin-right:10px;}
+aside{
+	textarea{
+		height:100px;
+		margin-bottom:5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

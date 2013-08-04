@@ -1,0 +1,113 @@
+[33mcommit fee766bba95527ba7e677ccca020cb33da51d3f0[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sat Aug 3 14:53:14 2013 +0700
+
+    Finish user edit, update, index, and destroy actions
+
+[33mcommit 3a33f4ef340fa31eb0a384125900051b8840c9ab[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Fri Aug 2 13:11:34 2013 +0700
+
+    Finish chapter 8
+
+[33mcommit f9c4f362b75e4920458ddf8e9c180d72531da91c[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Thu Aug 1 20:19:46 2013 +0700
+
+    Finish Chapter 7
+
+[33mcommit d3a021c96a9d6812245397644ece8daa7beb1669[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Thu Aug 1 19:53:35 2013 +0700
+
+    Add SSL in production
+
+[33mcommit d05ff6ff448b53fc071e71062072c40e6513b94a[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Thu Aug 1 19:46:24 2013 +0700
+
+    Finish user signup
+
+[33mcommit 46170d0c5a130e451981ef3802f5b43f116da499[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Thu Aug 1 18:13:36 2013 +0700
+
+    Signup Form - Create Fail
+
+[33mcommit 03fa55c720da5dcc87020c9d8516b90c4167bfb8[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Wed Jul 31 00:52:21 2013 +0700
+
+    Done chapter 6
+
+[33mcommit f65f62df5239b61c9e098649ac57a2ece061241b[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Tue Jul 30 17:17:47 2013 +0700
+
+    User has secure password
+
+[33mcommit bdbf47c9d9cfacf2ef36ce0ee5ef9189481a0e58[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Tue Jul 30 16:55:13 2013 +0700
+
+    password and password_confirmation
+
+[33mcommit 363d437576df7c8f0fc1e383cc82e083938da652[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Tue Jul 30 12:28:51 2013 +0700
+
+    validate email
+
+[33mcommit 232c068dcbed0dc232b9e9bcd241de4babe34686[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Tue Jul 30 11:49:29 2013 +0700
+
+    Improving modeling_user
+
+[33mcommit e54479aa8d3d095e3c59b9fd3f168f282dd56313[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sun Jul 28 00:00:10 2013 +0700
+
+    Check valid link and Improve StaticPagesSpec
+
+[33mcommit 103928ee84079abe49a156507c4ad6a2e4559b59[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sat Jul 27 23:10:59 2013 +0700
+
+    Finish layout and routes
+
+[33mcommit ac02426a237e9fb7821ba6a867cf6a406a701413[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sat Jul 27 22:39:47 2013 +0700
+
+    Pretty Spec
+
+[33mcommit 9066ee8b094337f14708fc2f5a73f681a15268f0[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sat Jul 27 22:23:49 2013 +0700
+
+    Name Routes
+
+[33mcommit ea6be786164ce8aef37dc90f972f5161c5801ca2[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sat Jul 27 18:21:41 2013 +0700
+
+    Rails routes
+
+[33mcommit 372e699dcd28c8c815d66afee7dc5a4a28e285f8[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sat Jul 27 15:08:02 2013 +0700
+
+    Finish add Static Pages
+
+[33mcommit 1e157c28097bbad1034b39b7fc71a85476216190[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sat Jul 27 14:49:31 2013 +0700
+
+    Add a StaticPages controller
+
+[33mcommit fb68e0fb3f98eb0315a684c06583703913d8b342[m
+Author: PhuongTa <tp.taphuong@gmail.com>
+Date:   Sat Jul 27 14:45:03 2013 +0700
+
+    Initial commit
