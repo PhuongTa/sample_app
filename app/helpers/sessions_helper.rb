@@ -23,7 +23,8 @@ module SessionsHelper
 		user == current_user
 	end
 
-	#Move from user-controller ???? Tai sao move qua day lai co the su dung trong micropost controller
+	#Move from user-controller ????
+	# Tai sao move qua day lai co the su dung trong micropost controller
 	def signed_in_user
         # unless signed_in?
         unless signed_in?

@@ -68,6 +68,16 @@ describe "Authetication" do
 					before {visit user_path}
 					it {should have have_title('Sign in')}
 				end
+
+				describe "visiting the following page" do
+		          before { visit following_user_path(user) }
+		          it { should have_title('Sign in') }
+		        end
+
+		        describe "visiting the followers page" do
+		          before { visit followers_user_path(user) }
+		          it { should have_title('Sign in') }
+		        end
 			end
 
 			describe "when attempting to visit a protected page" do

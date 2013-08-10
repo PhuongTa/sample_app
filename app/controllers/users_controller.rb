@@ -19,8 +19,8 @@ class UsersController < ApplicationController
   end
     
   def create
-  	#@user = User.new(user_params) # Not the final implementation!
-    @user = User.new(params[:user])
+  	@user = User.new(user_params) # Not the final implementation!
+    #@user = User.new(params[:user])
   	if @user.save
   		# Handle a successful save
       flash[:success] = "Welcome to the Sample App!"
@@ -54,6 +54,20 @@ class UsersController < ApplicationController
     else
       render 'edit'
     end
+  end
+
+  def following
+    @title ="Following"
+    @user = User.find(params[:id])
+    @users = @user.followed_users.paginate(page: params[:page])
+    render 'show_follow'
+  end
+  
+  def followers
+    @title ="Followers"
+    @user = User.find(params[:id])
+    @users= @user.followers.paginate(page: params[:page])
+    render 'show_follow'
   end
 
   private

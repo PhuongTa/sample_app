@@ -1,10 +1,15 @@
 SampleApp::Application.routes.draw do
 
   #get "users/new"
-  resources :users
+  # Add following and followers actions to the Users controller
+  resources :users do
+    member do
+        get :following, :followers
+    end
+  end
   resources :sessions, only: [:new, :destroy, :create]
   resources :microposts, only: [:create, :destroy]
-
+  resources :relationships, only: [:create, :destroy]
 
   root  to: 'static_pages#home'
   match '/help', to: 'static_pages#help', via: 'get'
